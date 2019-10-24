@@ -70,7 +70,7 @@ public class CuadroDialogo {
         dialog= new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(true);
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.WHITE));
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.setContentView(R.layout.alert);
         titulo = dialog.findViewById(R.id.titulo2);
         descripcion = dialog.findViewById(R.id.descripcion2);
