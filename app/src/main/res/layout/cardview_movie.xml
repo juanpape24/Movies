@@ -9,7 +9,7 @@
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
     cardview:cardBackgroundColor="@color/colorPrimaryDark"
-    cardview:cardCornerRadius="4dp"
+    cardview:cardCornerRadius="20dp"
 
     >
 
@@ -78,7 +78,7 @@
             android:layout_height="600dp"
             android:layout_margin="5dp"
             android:background="@color/colorPrimary"
-            android:scaleType="centerCrop"
+            android:scaleType="centerInside"
             android:layout_gravity="center"/>
     </LinearLayout>
 

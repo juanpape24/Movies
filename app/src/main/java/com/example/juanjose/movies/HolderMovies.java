@@ -43,7 +43,7 @@ public class HolderMovies extends RecyclerView.ViewHolder {
                 cuadroDialogo.getPopularidad().setText(String.valueOf(movie.getPopularity()));
                 String url = "https://image.tmdb.org/t/p/w600_and_h900_bestv2" + movie.getBackdrop_path();
 
-                Picasso.with(itemView.getContext()).load(url).resize(300,450).onlyScaleDown().into(cuadroDialogo.img);
+                Picasso.with(itemView.getContext()).load(url).into(cuadroDialogo.img);
                 cuadroDialogo.showDialog();
                 //Log.i("index", ""+movies.get(id).getTitle());
             }
